@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { GrEdit } from "react-icons/gr";
 import toast from "react-hot-toast";
-import { Loader } from "../../components/loader";
+import  Loader  from "../../components/loader";
 
 export default function AdminProductsPage() {
   const [products, setProducts] = useState([]);
@@ -110,3 +110,5 @@ export default function AdminProductsPage() {
     </div>
   );
 }
+// https://ybnbzquuvpxrntsidbsu.supabase.co
+// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlibmJ6cXV1dnB4cm50c2lkYnN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUyNDQ0NjQsImV4cCI6MjA2MDgyMDQ2NH0.sZVk9SQi6MH31zs8wzgVSWQNrawzzVvFGH-EeBnQG-E

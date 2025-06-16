@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import mediaUpload from "../../utilis/mediaUpload";
 
+
 export default function AddProductForm() {
 	const [productId, setProductId] = useState("");
 	const [name, setName] = useState("");
