@@ -5,7 +5,7 @@ import ProductOverview from "./client/productOverview";
 
 export default function HomePage(){
     return(
-        <div className="w-full h-screen  ">
+        <div className="w-full h-screen max-h-screen ">
             <Header/>
             <div className="w-full min-h-[calc(100vh-70px)]">
                 <Routes path="/*">
