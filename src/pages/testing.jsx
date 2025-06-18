@@ -1,6 +1,6 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
-import mediaUpload from "../utilis/mediaUpload";
+import mediaUpload from "../utils/mediaUpload";
 
 export default function Testing() {
 	const [file, setFile] = useState(null);
