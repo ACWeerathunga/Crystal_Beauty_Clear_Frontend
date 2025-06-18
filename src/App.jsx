@@ -7,6 +7,8 @@ import { Toaster } from "react-hot-toast";
 import RegisterPage from "./pages/client/register";
 import HomePage from "./pages/homePage";
 
+
+
 function App() {
 	return (
 		<BrowserRouter>
